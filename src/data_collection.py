@@ -48,7 +48,7 @@ bounding_polygon = combined_area.geometry.union_all()
 # 2. Collect Food Shops
 # -------------------------
 food_tags = {
-    "amenity": ["restaurant", "fast_food", "cafe"]
+    "amenity": ["restaurant", "fast_food", "cafe", "hotels", "cuisines"]
 }
 
 food_shops = ox.features_from_polygon(bounding_polygon, tags=food_tags)
@@ -79,6 +79,12 @@ islamabad.plot(ax=ax, color='lightgrey')
 taxila.plot(ax=ax, color='lightgrey')
 food_shops.plot(ax=ax, color='red', markersize=5, label="Food Shops")
 pois.plot(ax=ax, color='blue', markersize=5, label="POIs")
-plt.legend()
 plt.title("Food Shops and POIs in Islamabad & Taxila")
 plt.show()
+
+
+combined_gdf = gpd.GeoDataFrame(geometry=[bounding_polygon], crs="EPSG:4326")
+
+# Now below part is going to create a grid for this polygon in the other file
+# Creating_grid.py
+
