@@ -16,7 +16,10 @@ if os.path.exists(t):
 else:
     print("Folder does not exist.")
 
-
+if os.path.exists(folder_path):
+    print("NOT DELETED")
+elif os.path.exists(t):
+    print("NOT DELETED")
 
 import osmnx as ox
 import geopandas as gpd
@@ -39,7 +42,7 @@ taxila = ox.geocode_to_gdf(taxila_name)
 
 # Combine into one bounding box
 combined_area = gpd.GeoDataFrame(pd.concat([islamabad, taxila], ignore_index=True))
-bounding_polygon = combined_area.unary_union
+bounding_polygon = combined_area.geometry.union_all()
 
 # -------------------------
 # 2. Collect Food Shops
