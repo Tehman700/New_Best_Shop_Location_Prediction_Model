@@ -1,0 +1,2 @@
+print("GGG")
+print("ggf")
