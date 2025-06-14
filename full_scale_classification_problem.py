@@ -70,4 +70,4 @@ print(user_stats[['visitorid', 'total_views', 'total_adds', 'total_purchases', '
 
 ending = time.time()
 
-print(f"\n⏱️ Time taken: {ending - starting_from_here:.2f} seconds")
+print(f"\n Time taken: {ending - starting_from_here:.2f} seconds")
