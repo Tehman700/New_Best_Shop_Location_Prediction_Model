@@ -20,16 +20,18 @@ Y = user_stats['abnormal']
 
 # Replace infinities and Nans withs zeros
 
+print("Now we are replacing for infinite's and Nans with Zeros")
 X = X.replace([float('inf'), -float('inf')], 0)
 X = X.fillna(0)
 
 # The main part of training and testing the splits
 
+print("Now we are training and testing the splits")
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=42)
 
 
 # First one is KNN
-
+print("We are doing the model for KNN and being trained on KNN")
 knn = KNeighborsClassifier(n_neighbors=5)
 knn.fit(X_train, Y_train)
 y_pred = knn.predict(X_test)
@@ -42,6 +44,7 @@ print("F1_score for KNN ", f1_score(Y_test, y_pred))
 
 # Second one is for Logistic Regression
 
+print("We are doing the model for SVM and being trained on SVM")
 logistic = LogisticRegression()
 logistic.fit(X_train, Y_train)
 y_pred_lr = logistic.predict(X_test)
@@ -54,6 +57,7 @@ print("F1_score for Logistic Regression ", f1_score(Y_test, y_pred_lr))
 
 # Third one is for Support Vector Machine Algorithm
 
+print("We are doing the model for SVM and being trained on SVM")
 svm = SVC()
 svm.fit(X_train, Y_train)
 svm_lr = svm.predict(X_test)
@@ -66,6 +70,7 @@ print("F1_score for SVM ", f1_score(Y_test, svm_lr))
 
 # Fourth one is for Naive Bayes Algorithm
 
+print("We are doing the model for Naive bayes and being trained on Naive Bayes")
 nb = GaussianNB()
 nb.fit(X_train, Y_train)
 y_pred_nb_lr = nb.predict(X_test)
