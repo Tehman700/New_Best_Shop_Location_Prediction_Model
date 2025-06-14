@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09eb985-cdec-44b1-9d20-443fcab13587" name="Changes" comment="Made Changes for the Air University CEP for further amendments in E-Commerce Fraud Detection">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_applying_for_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_applying_for_classification.py" afterDir="false" />
-    </list>
+    <list default="true" id="f09eb985-cdec-44b1-9d20-443fcab13587" name="Changes" comment="Made Changes for the Air University CEP for further amendments in E-Commerce Fraud Detection" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1749669975362" duration="5637000" />
       <workItem from="1749752031712" duration="18000" />
       <workItem from="1749855807620" duration="976000" />
-      <workItem from="1749893710316" duration="7252000" />
+      <workItem from="1749893710316" duration="7590000" />
     </task>
     <task id="LOCAL-00001" summary="Just Checking the Repository">
       <option name="closed" value="true" />
@@ -164,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749898986504</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Made Changes for the Air University CEP for further amendments in E-Commerce Fraud Detection">
+      <option name="closed" value="true" />
+      <created>1749905858388</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749905858388</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +185,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$main.coverage" NAME="main Coverage Results" MODIFIED="1749670008655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$data_collection.coverage" NAME="data_collection Coverage Results" MODIFIED="1749674046334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$model_applying_for_classification.coverage" NAME="model_applying_for_classification Coverage Results" MODIFIED="1749899191586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$model_applying_for_classification.coverage" NAME="model_applying_for_classification Coverage Results" MODIFIED="1749905852700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$creating_grid.coverage" NAME="creating_grid Coverage Results" MODIFIED="1749674939483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$full_scale_classification_problem.coverage" NAME="full_scale_classification_problem Coverage Results" MODIFIED="1749896665666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$just_checking_git.coverage" NAME="just_checking_git Coverage Results" MODIFIED="1749894036542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
