@@ -1,5 +1,9 @@
 import shutil
 import os
+import osmnx as ox
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import pandas as pd
 
 folder_path = r"D:\New Shop Prediction Model\src\data"
 t = r"D:\New Shop Prediction Model\src\cache"# Use raw string or double backslashes on Windows
@@ -21,10 +25,7 @@ if os.path.exists(folder_path):
 elif os.path.exists(t):
     print("NOT DELETED")
 
-import osmnx as ox
-import geopandas as gpd
-import matplotlib.pyplot as plt
-import pandas as pd
+
 
 # Settings
 ox.settings.log_console = True
@@ -33,15 +34,13 @@ ox.settings.use_cache = True
 # -------------------------
 # 1. Define the Area
 # -------------------------
-place_name = "Islamabad, Pakistan"
-taxila_name = "Taxila Tehsil, Punjab, Pakistan"
+place_name = "Punjab, Pakistan"
 
 # You can combine both regions into one
 islamabad = ox.geocode_to_gdf(place_name)
-taxila = ox.geocode_to_gdf(taxila_name)
 
 # Combine into one bounding box
-combined_area = gpd.GeoDataFrame(pd.concat([islamabad, taxila], ignore_index=True))
+combined_area = gpd.GeoDataFrame(pd.concat([islamabad], ignore_index=True))
 bounding_polygon = combined_area.geometry.union_all()
 
 # -------------------------
@@ -76,7 +75,6 @@ pois.to_file("data/raw/pois.geojson", driver='GeoJSON')
 # -------------------------
 fig, ax = plt.subplots(figsize=(12, 10))
 islamabad.plot(ax=ax, color='lightgrey')
-taxila.plot(ax=ax, color='lightgrey')
 food_shops.plot(ax=ax, color='red', markersize=5, label="Food Shops")
 pois.plot(ax=ax, color='blue', markersize=5, label="POIs")
 plt.title("Food Shops and POIs in Islamabad & Taxila")
@@ -84,7 +82,3 @@ plt.show()
 
 
 combined_gdf = gpd.GeoDataFrame(geometry=[bounding_polygon], crs="EPSG:4326")
-
-# Now below part is going to create a grid for this polygon in the other file
-# Creating_grid.py
-
