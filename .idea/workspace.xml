@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f09eb985-cdec-44b1-9d20-443fcab13587" name="Changes" comment="Learning from 100 Days of ML from YouTube">
+      <change afterPath="$PROJECT_DIR$/Titanic_Dataset_Model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearningYoutube.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearningYoutube.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.MachineLearningYoutube.executor": "Run",
     "Python.New_Chapter_on_Regression_Models_14_06_2025.executor": "Run",
+    "Python.Titanic_Dataset_Model.executor": "Run",
     "Python.creating_grid.executor": "Run",
     "Python.data_collection.executor": "Run",
     "Python.feature_engineering_on_plots.executor": "Run",
@@ -97,7 +98,8 @@
       <workItem from="1749906163521" duration="3345000" />
       <workItem from="1749928405460" duration="8619000" />
       <workItem from="1750100574797" duration="16000" />
-      <workItem from="1750362517460" duration="2013000" />
+      <workItem from="1750362517460" duration="3776000" />
+      <workItem from="1750419642850" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="Just Checking the Repository">
       <option name="closed" value="true" />
@@ -219,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750362943099</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Learning from 100 Days of ML from YouTube">
+      <option name="closed" value="true" />
+      <created>1750364689884</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1750364689884</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +247,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$main.coverage" NAME="main Coverage Results" MODIFIED="1749670008655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$MachineLearningYoutube.coverage" NAME="MachineLearningYoutube Coverage Results" MODIFIED="1750364535715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$MachineLearningYoutube.coverage" NAME="MachineLearningYoutube Coverage Results" MODIFIED="1750364549507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$data_collection.coverage" NAME="data_collection Coverage Results" MODIFIED="1749937016373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$feature_engineering_on_plots.coverage" NAME="feature_engineering_on_plots Coverage Results" MODIFIED="1749934235433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$model_applying_for_classification.coverage" NAME="model_applying_for_classification Coverage Results" MODIFIED="1749905852700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -245,5 +255,6 @@
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$New_Chapter_on_Regression_Models_14_06_2025.coverage" NAME="New_Chapter_on_Regression_Models_14_06_2025 Coverage Results" MODIFIED="1749907119465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning Practice Summer 2025" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$full_scale_classification_problem.coverage" NAME="full_scale_classification_problem Coverage Results" MODIFIED="1749896665666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$just_checking_git.coverage" NAME="just_checking_git Coverage Results" MODIFIED="1749894036542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$Titanic_Dataset_Model.coverage" NAME="Titanic_Dataset_Model Coverage Results" MODIFIED="1750419945630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
