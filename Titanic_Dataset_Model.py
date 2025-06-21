@@ -1,5 +1,6 @@
 import pandas as pd
 import seaborn as sns
+from matplotlib import pyplot as plt
 
 df = pd.read_csv("D:/New Shop Prediction Model/Titanic-Dataset.csv")
 print(df.head())
@@ -32,3 +33,8 @@ print(df.head(10))
 
 
 # let's work on survived column as graphing
+#  WE DO THIS FOR CATEGORICAL DATA BECAUSE WE CAN KNOW HOW MUCH OF VALUES ARE SHOWN
+sns.countplot(x='Pclass', data=df)
+
+#df['Survived'].value_counts().plot(kind='bar')
+plt.show()
