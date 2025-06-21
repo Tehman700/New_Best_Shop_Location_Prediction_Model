@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f09eb985-cdec-44b1-9d20-443fcab13587" name="Changes" comment="Applying EDA Univariate on Dataset">
+    <list default="true" id="f09eb985-cdec-44b1-9d20-443fcab13587" name="Changes" comment="Applying EDA Univariate on Dataset using Histograms, Boxplot for numerical and categorical data">
+      <change afterPath="$PROJECT_DIR$/Multivariate_Bivariate_EDA_Analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Titanic_Dataset_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Titanic_Dataset_Model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,30 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.MachineLearningYoutube.executor&quot;: &quot;Run&quot;,
-    &quot;Python.New_Chapter_on_Regression_Models_14_06_2025.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Titanic_Dataset_Model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.creating_grid.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_collection.executor&quot;: &quot;Run&quot;,
-    &quot;Python.feature_engineering_on_plots.executor&quot;: &quot;Run&quot;,
-    &quot;Python.full_scale_classification_problem.executor&quot;: &quot;Run&quot;,
-    &quot;Python.just_checking_git.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_applying_for_classification.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.MachineLearningYoutube.executor": "Run",
+    "Python.Multivariate_Bivariate_EDA_Analysis.executor": "Run",
+    "Python.New_Chapter_on_Regression_Models_14_06_2025.executor": "Run",
+    "Python.Titanic_Dataset_Model.executor": "Run",
+    "Python.creating_grid.executor": "Run",
+    "Python.data_collection.executor": "Run",
+    "Python.feature_engineering_on_plots.executor": "Run",
+    "Python.full_scale_classification_problem.executor": "Run",
+    "Python.just_checking_git.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.model_applying_for_classification.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\New Shop Prediction Model" />
@@ -100,7 +101,7 @@
       <workItem from="1750100574797" duration="16000" />
       <workItem from="1750362517460" duration="3776000" />
       <workItem from="1750419642850" duration="3360000" />
-      <workItem from="1750501611138" duration="3212000" />
+      <workItem from="1750501611138" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="Just Checking the Repository">
       <option name="closed" value="true" />
@@ -262,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750503225232</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Applying EDA Univariate on Dataset using Histograms, Boxplot for numerical and categorical data">
+      <option name="closed" value="true" />
+      <created>1750505529355</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1750505529355</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +286,8 @@
     <MESSAGE value="Integrated the next most important features for extraction from the map of Islamabad and Taxila" />
     <MESSAGE value="Learning from 100 Days of ML from YouTube" />
     <MESSAGE value="Applying EDA Univariate on Dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Applying EDA Univariate on Dataset" />
+    <MESSAGE value="Applying EDA Univariate on Dataset using Histograms, Boxplot for numerical and categorical data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applying EDA Univariate on Dataset using Histograms, Boxplot for numerical and categorical data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$main.coverage" NAME="main Coverage Results" MODIFIED="1749670008655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -289,6 +299,7 @@
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$New_Chapter_on_Regression_Models_14_06_2025.coverage" NAME="New_Chapter_on_Regression_Models_14_06_2025 Coverage Results" MODIFIED="1749907119465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Machine Learning Practice Summer 2025" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$full_scale_classification_problem.coverage" NAME="full_scale_classification_problem Coverage Results" MODIFIED="1749896665666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$just_checking_git.coverage" NAME="just_checking_git Coverage Results" MODIFIED="1749894036542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$Titanic_Dataset_Model.coverage" NAME="Titanic_Dataset_Model Coverage Results" MODIFIED="1750505234540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$Titanic_Dataset_Model.coverage" NAME="Titanic_Dataset_Model Coverage Results" MODIFIED="1750505320756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/New_Shop_Prediction_Model$Multivariate_Bivariate_EDA_Analysis.coverage" NAME="Multivariate_Bivariate_EDA_Analysis Coverage Results" MODIFIED="1750505727555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
