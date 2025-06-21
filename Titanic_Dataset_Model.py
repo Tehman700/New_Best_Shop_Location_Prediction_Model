@@ -34,7 +34,42 @@ print(df.head(10))
 
 # let's work on survived column as graphing
 #  WE DO THIS FOR CATEGORICAL DATA BECAUSE WE CAN KNOW HOW MUCH OF VALUES ARE SHOWN
-sns.countplot(x='Pclass', data=df)
+#sns.countplot(x='Sex', data=df)
+#sns.countplot(x = 'Survived', data =df)
 
 #df['Survived'].value_counts().plot(kind='bar')
 plt.show()
+
+
+
+# LET'S SAY IF WE WANT TO SEE THE INFORMATION IN PERCENTAGE  WE CAN USE PIECHART FOR THIS
+
+df['Pclass'].value_counts().plot(kind='pie', autopct = '%.2f')
+plt.show()
+
+
+
+
+
+
+# now for the numerical data wala column
+# Histogram is the way in which we create ranges for numerical
+plt.hist(df['Age'], bins = 100)
+plt.show()
+
+# Also we can use distplot
+# This is also known as Probability Function
+sns.distplot(df['Age'])
+plt.show()
+
+
+# Now we can use BOxplot for noisy data
+
+sns.boxplot(df['Age'])
+plt.show()
+
+print(df['Age'].min())
+print(df['Age'].max())
+print(df['Age'].mean())
+print(df['Age'].median())
+print(df['Age'].skew())
