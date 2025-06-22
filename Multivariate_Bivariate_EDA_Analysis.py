@@ -15,3 +15,20 @@ print(tips.head())
 print(flights.head())
 print(iris.head())
 print(titanic.head())
+
+
+# Scatterplot (Numerical-Numerical Relation)
+sns.scatterplot(x = tips['total_bill'], y = tips['tip'], hue = tips['sex'], style = tips['smoker'])
+plt.show()
+
+
+
+# BarPlot (when one is categorical and other is numerical)
+
+sns.barplot(x = titanic['Pclass'], y = titanic['Survived'],hue = titanic['Sex'])
+plt.show()
+
+
+# BoxPlot (When one is numerical and other is categorical)
+sns.boxplot(x = titanic['Sex'], y = titanic['Age'], hue=titanic['Survived'])
+plt.show()
